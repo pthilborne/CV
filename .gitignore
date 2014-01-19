@@ -1,7 +1,6 @@
 moderncv/moderncv*.sty
-moderncv/Peter_CV.*
-!moderncv/Peter_CV.tex
-!moderncv/Peter_CV.pdf
+moderncv/Peter_CV.log
+moderncv/Peter_CV.synctex.gz
 moderncv/picture.*
 moderncv/README
 moderncv/tweaklist.sty
