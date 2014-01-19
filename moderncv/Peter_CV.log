@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.29)  15 JAN 2014 17:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.29)  19 JAN 2014 13:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -10,8 +10,8 @@ Babel <3.9f> and hyphenation patterns for 78 languages loaded.
 (./moderncv.cls
 Document Class: moderncv 2013/04/29 v1.5.1 modern curriculum vitae and letter d
 ocument class
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
@@ -379,13 +379,32 @@ tter compatibility patches
 \cvcolumnautowidth=\skip63
 \bibindent=\skip64
 )
-(./moderncvstylecasual.sty
-Package: moderncvstylecasual 2013/04/29 v1.5.1 modern curriculum vitae and lett
-er style scheme: casual
- (./moderncvstyleclassic.sty
-Package: moderncvstyleclassic 2013/04/29 v1.5.1 modern curriculum vitae and let
-ter style scheme: classic
+(./moderncvstylebanking.sty
+Package: moderncvstylebanking 2013/04/29 v1.5.1 modern curriculum vitae and let
+ter style scheme: banking
 
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tex-gyre/tgpagella.sty
+Package: tgpagella 2009/09/27 v1.2 TeX Gyre Pagella as default roman family
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))))
+(./moderncviconsawesome.sty
+Package: moderncviconsawesome 2013/04/29 v1.5.1 modern curriculum vitae and let
+ter icons: awesome
+
+WARNING: to use the awesome icon set, please use XeTeX or LuaTeX to compile you
+r document; switching to the marvosym icon set.
 (./moderncviconsmarvosym.sty
 Package: moderncviconsmarvosym 2013/04/29 v1.5.1 modern curriculum vitae and le
 tter icons: marvosym
@@ -505,7 +524,10 @@ File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
 \pgf@yy=\dimen158
 \pgf@zx=\dimen159
 \pgf@zy=\dimen160
-)
+LaTeX Font Info:    Try loading font information for T1+qpl on input line 862.
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/tex-gyre/t1qpl.fd
+File: t1qpl.fd 2009/09/25 v1.2 font definition file for T1/qpl
+))
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
 ruct.code.tex
 File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
@@ -645,45 +667,36 @@ File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
-))))
-\quotewidth=\skip65
-\hintscolumnwidth=\skip66
-\separatorcolumnwidth=\skip67
-\maincolumnwidth=\skip68
-\doubleitemmaincolumnwidth=\skip69
-\listitemsymbolwidth=\skip70
-LaTeX Font Info:    Try loading font information for U+mvs on input line 68.
+)))))
+\maketitlebox=\box50
+\maketitletempbox=\box51
+\maketitlewidth=\skip65
+\maketitleboxwidth=\skip66
+\quotewidth=\skip67
+\hintscolumnwidth=\skip68
+\separatorcolumnwidth=\skip69
+\maincolumnwidth=\skip70
+\doubleitemcolumnwidth=\skip71
+\listitemsymbolwidth=\skip72
+LaTeX Font Info:    Try loading font information for U+mvs on input line 130.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/marvosym/umvs.fd)
-\listitemmaincolumnwidth=\skip71
-\listdoubleitemmaincolumnwidth=\skip72
-\makecvtitlenamewidth=\skip73
-\baseletterheight=\skip74
+\listitemmaincolumnwidth=\skip73
+\listdoubleitemmaincolumnwidth=\skip74
 
 *************************************************
 * LaTeX warning: "xparse/redefine-command"
 * 
-* Redefining document command \section with arg. spec. 'sm' on line 160.
+* Redefining document command \section with arg. spec. 'sm' on line 168.
 *************************************************
 *************************************************
 * LaTeX warning: "xparse/redefine-command"
 * 
-* Redefining document command \subsection with arg. spec. 'sm' on line 169.
+* Redefining document command \subsection with arg. spec. 'sm' on line 176.
 *************************************************
-\cvitemwithcommentmainbox=\box50
+\cvitemwithcommentmainbox=\box52
 \cvitemwithcommentmainlength=\skip75
 \cvitemwithcommentcommentlength=\skip76
-) (./moderncviconsawesome.sty
-Package: moderncviconsawesome 2013/04/29 v1.5.1 modern curriculum vitae and let
-ter icons: awesome
-
-WARNING: to use the awesome icon set, please use XeTeX or LuaTeX to compile you
-r document; switching to the marvosym icon set.
-)
-\footerbox=\box51
-\footertempbox=\box52
-\footerwidth=\skip77
-\footerboxwidth=\skip78
 ) (./moderncvcolorblue.sty
 Package: moderncvcolorblue 2013/04/29 v1.5.1 modern curriculum vitae and letter
  color scheme: blue
@@ -724,12 +737,8 @@ Package hobsub Info: Skipping package `ifluatex' (already loaded).
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
 Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -754,9 +763,6 @@ Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
-)
-(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen189
 \Hy@linkcounter=\count144
@@ -814,7 +820,7 @@ Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip79
+\Hy@SectionHShift=\skip77
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 54.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 54.
@@ -838,10 +844,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 54.
- (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
+
 (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count154
@@ -881,9 +884,8 @@ Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/mt-ppl.cfg
+File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 LaTeX Font Info:    Try loading font information for T1+lmss on input line 54.
 
@@ -915,12 +917,12 @@ ABD: EveryShipout initializing macros
 * \topmargin=-24.76532pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=11.0pt
+* \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=50.0pt
+* \marginparwidth=35.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -948,95 +950,95 @@ LaTeX Info: Redefining \nameref on input line 54.
 \@outlinefile=\write4
 \openout4 = `Peter_CV.out'.
 
-\pagenumberwidth=\skip80
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+\pagenumberwidth=\skip78
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 54.
-\makecvtitlepicturebox=\box55
- <picture.jpg, id=52, 94.3525pt x 94.3525pt>
-File: picture.jpg Graphic file (type jpg)
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <24.88> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 57.
 
-<use picture.jpg>
-Package pdftex.def Info: picture.jpg used on input line 57.
-(pdftex.def)             Requested size: 64.0pt x 63.99902pt.
-\makecvtitlepicturewidth=\skip81
+(/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/mt-mvs.cfg
+File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
+)
+LaTeX Font Info:    Try loading font information for OMS+qpl on input line 57.
+LaTeX Font Info:    No file OMSqpl.fd. on input line 57.
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--57
 
- []
+LaTeX Font Warning: Font shape `OMS/qpl/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 57.
 
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 60.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 57.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 60.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 57.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 60.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 57.
 
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 60.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 57.
 
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 60.
+(Font)              <12> on input line 57.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 60.
+(Font)              <8> on input line 57.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 60.
+(Font)              <6> on input line 57.
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/mt-mvs.cfg
-File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
-)
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 86.
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 86.
-LaTeX Font Info:    Font shape `OMS/lmr/m/sl' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 90.
+ []
+
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <17.28> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 59.
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <12> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 60.
+
+LaTeX Font Warning: Font shape `T1/lmss/sb/n' undefined
+(Font)              using `T1/lmss/m/n' instead on input line 69.
 
 
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 36.71997pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+Underfull \hbox (badness 10000) detected at line 69
+\T1/lmss/m/n/8 .
+ []
+
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <14.4> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 86.
+
+Underfull \hbox (badness 10000) detected at line 88
+\T1/lmss/m/n/8 .
+ []
 
 [1
 
-{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./pictu
-re.jpg>]
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 92.
 
 
 LaTeX Warning: Citation `book1' on page 2 undefined on input line 113.
 
 No file Peter_CV.bbl.
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 36.71997pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 [2]
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
+
+ []
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 36.71997pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 [3
 
 ]
@@ -1048,38 +1050,42 @@ Package rerunfilecheck Info: File `Peter_CV.out' has not changed.
 (rerunfilecheck)             Checksum: 28811090CB3F7C92F13E397F5EF073EF;1069.
 
 
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 24748 strings out of 493315
- 433989 string characters out of 6137903
- 524167 words of memory out of 5000000
- 27728 multiletter control sequences out of 15000+600000
- 65321 words of font info for 69 fonts, out of 8000000 for 9000
+ 24793 strings out of 493315
+ 434918 string characters out of 6137903
+ 513286 words of memory out of 5000000
+ 27776 multiletter control sequences out of 15000+600000
+ 61368 words of font info for 63 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 77i,18n,61p,774b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 77i,12n,61p,774b,339s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/lo
 cal/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texliv
 e/2013/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2013/tex
 mf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2013/texmf-dist/fonts/
-enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/l
-m/lmex10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmmi10.p
-fb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/lo
-cal/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive
-/2013/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2013/texmf-
-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2013/texmf-dist/fonts
-/type1/public/lm/lmss12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pub
-lic/lm/lmss17.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lms
-sbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmsso10.pfb
-></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmsso17.pfb></usr/lo
-cal/texlive/2013/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texliv
-e/2013/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2013/texm
-f-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on Peter_CV.pdf (3 pages, 210266 bytes).
+enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm
+/lmex10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmmi12.pf
+b></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/loc
+al/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/
+2013/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2013/texmf-d
+ist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2013/texmf-dist/fonts/
+type1/public/lm/lmss12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/publ
+ic/lm/lmss17.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmss
+8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></
+usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local
+/texlive/2013/texmf-dist/fonts/type1/public/lm/lmsso12.pfb></usr/local/texlive/
+2013/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2013/texmf-
+dist/fonts/type1/public/marvosym/marvosym.pfb>
+Output written on Peter_CV.pdf (3 pages, 213335 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 119 compressed objects within 2 object streams
+ 144 PDF objects out of 1000 (max. 8388607)
+ 121 compressed objects within 2 object streams
  15 named destinations out of 1000 (max. 500000)
- 23146 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 20069 words of extra memory for PDF output out of 20736 (max. 10000000)
 
