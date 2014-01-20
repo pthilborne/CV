@@ -1,4 +1,3 @@
-%&pdflatex
 %% start of file `template.tex'.
 %% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
 %
@@ -10,8 +9,8 @@
 \documentclass[12pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
 % moderncv themes
-\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{black}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\moderncvstyle{banking}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 %\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 %\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 
@@ -26,8 +25,8 @@
 
 % personal data
 \name{Peter}{Hilborne}
-%\title{Curriculum Vit\ae}                               % optional, remove / comment the line if not wanted
-\address{Ty Newydd, Three Crosses}{Swansea}{SA4 3QJ}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\title{Curriculum Vit\ae}                               % optional, remove / comment the line if not wanted
+\address{Ty Newydd, The Old Lane}{Three Crosses, Swansea}{SA4 3QJ}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
 \phone[mobile]{07906~918~180}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
 %\phone[fixed]{+2~(345)~678~901}
 %\phone[fax]{+3~(456)~789~012}
@@ -37,7 +36,7 @@
 %\social[twitter]{jdoe}                             % optional, remove / comment the line if not wanted
 %\social[github]{jdoe}                              % optional, remove / comment the line if not wanted
 %\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
-%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 %\quote{Some quote}                                 % optional, remove / comment the line if not wanted
 
 % to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
@@ -58,68 +57,68 @@
 \makecvtitle
 
 \section{Education}
-\cventry{2010--2014}{Gonville \& Caius College, University of Cambridge}{}{}{}{MEng in Control \& Instrumentation Engineering.
-  \newline{} Part IIB Project: Feedback Control of McLaren F1 Simulator.   
-  \newline{} Parts IIA \& IIB focused on Control \& Information Engineering.
-  \newline{} Parts IA \& IB gave a broad foundation in all engineering disciplines.}
-\cvitem{2010--2013}{Parts IA, IB \& IIA: Class I.}
-\cvitem{}{}
-\cventry{2003--2010}{Bishop Gore Comprehensive School, Swansea}{}{}{}{}
-%\cvitem{2008-2010}{A-Levels: \qquad Mathematics (A*), Further Mathematics(A), Physics(A)}
-\cvitem{2010}{
-	\begin{tabular}{p{2.5cm} l l}
-	A-Levels: & Mathematics (A*)
-	\end{tabular} \newline{} 
-	\begin{tabular}{p{2.5cm} l l} & Further Mathematics (A) \\ & Physics (A) \end{tabular}}
-\cvitem{2008}{GCSEs: 10, 5 at grade A \& 4 at A*, including Maths and Double Science.}
+\cventry{2010-2013}{BA Hons in Control \& Instrumentation Engineering}{University of Cambridge}{Cambridge}{\textit{Class I}}{Something interesting about my degree, mention 3 firsts, stuff from James' CV to add. IEP, IDP, information slant.}  % arguments 3 to 6 can be left empty
+\cventry{2013-2014}{MEng in Control \& Instrumentation Engineering}{University of Cambridge}{Cambridge}{\textit{Merit with Distinction}}{Write about self-driven work, motivation for project, lots of information \& control.}
 
-%\section{Master project}
-%\cvitem{title}{\textbf{Feedback Control of the McLaren Formula One Simulator}}
-%\cvitem{supervisor}{Professor Malcolm C. Smith}
-%\cvitem{description}{Designed  and implemented feedback controller for McLaren F1 Simulator using MATLAB system analysis and design tools.}
+\section{Master thesis}
+\cvitem{title}{\emph{Feedback Control of the McLaren Formula One Simulator}}
+\cvitem{supervisors}{Professor Malcolm C. Smith}
+\cvitem{description}{Designed feedback controller for McLaren F1 Simulator. Stuff about MATLAB, controller iterations, final design.}
 
-\section{Academic Achievements}
-\cvlistitem{Ranked 9$^{\mathsf{th}}$ out of 300 in Part IIA Tripos, 6$^{\mathsf{th}}$ out of 300 in Part IB Tripos;}
-\cvlistitem{Received prize for highest mark obtained in Image Processing Project at end of Part IIA;}
-\cvlistitem{Awarded Reginald C. Cox College Prize for highest mark in Part IB \& Sir David L. Salomons College Prize for same in IIA;}
-\cvlistitem{Scholarships awarded for Parts IA, IB \& IIA.}
+\section{Experience}
+\subsection{Vocational}
+\cventry{year--year}{Job title}{Employer}{City}{}{General description no longer than 1--2 lines.\newline{}%
+Detailed achievements:%
+\begin{itemize}%
+\item Achievement 1;
+\item Achievement 2, with sub-achievements:
+  \begin{itemize}%
+  \item Sub-achievement (a);
+  \item Sub-achievement (b), with sub-sub-achievements (don't do this!);
+    \begin{itemize}
+    \item Sub-sub-achievement i;
+    \item Sub-sub-achievement ii;
+    \item Sub-sub-achievement iii;
+    \end{itemize}
+  \item Sub-achievement (c);
+  \end{itemize}
+\item Achievement 3.
+\end{itemize}}
+\cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}
+\subsection{Miscellaneous}
+\cventry{year--year}{Job title}{Employer}{City}{}{Description}
 
-\section{Work Experience}
-\cventry{2013}{West Kirby URC}{Voluntary Youth Worker}{}{}{Undertook over 120 hours of voluntary youth work during summer. Tasks include:}
-\cvlistitem{Engaging with young people over difficult/pastoral issues.}
-\cvlistitem{Last minute stand-in for coordinating and running games \& activities.}
-\cvlistitem{Responsible for running of strategic games club.}
-\cventry{2012}{TATA Steel, Port Talbot}{Summer placement}{}{}{Worked in Process Control. Gave presentation at end of placement to whole department.}
-\cventry{2011}{Cellnovo Ltd, Swansea}{Summer placement}{}{}{Worked on CAD model of company's insulin pump, on milling machine and in manufacturing. Achievements/responsibilities include:}
-\cvlistitem{Independently redesigned \& prototyped cantilever clip \& waterproof seal;}
-\cvlistitem{Modified current pump model to fit pre-made insulin cartridges. Prototypes presented to one of the world's leading drugs companies;}
-\cvlistitem{Created detailed and technical presentations to be shown to both superiors and potential business partners;}
-\cvlistitem{Independently contacted current \& potential suppliers.}
+\section{Languages}
+\cvitemwithcomment{Language 1}{Skill level}{Comment}
+\cvitemwithcomment{Language 2}{Skill level}{Comment}
+\cvitemwithcomment{Language 3}{Skill level}{Comment}
 
-\section{Extra-Curricular Achievements}
-\cvitem{2013}{\textbf{Soul Survivor Summer Camp} -- catered for over 30 people while camping for less than \pounds2 per head per day.}
-\cvitem{2013}{\textbf{First Aid} -- completed Red Cross course in first aid for babies and children.}
-\cvitem{2013}{\textbf{Preaching} -- after my first sermon I was invited back very shortly after and have now preached at two different churches.}
-\cvitem{2011--2013}{\textbf{Cambridge Student Methodist Society Committee}}
-\qquad \cvitem{}{\emph{President} -- Chaired meetings, ran weekly Bible study, responsible for pastoral care of society, member of Church Council. First president to hold office for 2 terms.}
-\qquad \cvitem{}{ \emph{Secretary} -- Single-handedly organised black tie dinner for 60 past members. Included contacting hundreds of past members, finding and conversing with venue \& organisation on-the-night.}
-\cvitem{2011--2012}{\textbf{Cambridge RAG Jailbreak} -- charity challenge to travel as far as possible in 36 hours with no money. Travelled 834 miles in 2011 \& 616 miles by hitchhiking in 2012.}
-\cvitem{2010}{\textbf{Travel} -- InterRailed around Europe for 3$\frac{\mathsf{1}}{\mathsf{2}}$ weeks in summer. Organised route \& accommodation for 8 separate locations beforehand.}
-\cvitem{2003-2008}{\textbf{Swimming} -- twice a week throughout all of secondary school. Achieved award for completing 2km endurance swim.}
-
-\section{Additional Skills}
-\cvitem{\textbf{IT}}{Part IIB Project completely programmed in MATLAB; Part IIB reports and thesis in LaTeX; edited and improved complex assemblies in SolidWorks CAD program; proficient in C++; expert in Apple Pages and proficient in Microsoft Office.}
-\cvitem{\textbf{Languages}}{GCSE grade A in French; undertook 8 week introductory Chinese course.}
+\section{Computer skills}
+\cvdoubleitem{category 1}{XXX, YYY, ZZZ}{category 4}{XXX, YYY, ZZZ}
+\cvdoubleitem{category 2}{XXX, YYY, ZZZ}{category 5}{XXX, YYY, ZZZ}
+\cvdoubleitem{category 3}{XXX, YYY, ZZZ}{category 6}{XXX, YYY, ZZZ}
 
 \section{Interests}
-\cvitem{}{Reading -- specifically modern sci-fi; cooking -- especially for friends and family; solving wooden/metal Mensa puzzles and playing strategy board games.}
+\cvitem{hobby 1}{Description}
+\cvitem{hobby 2}{Description}
+\cvitem{hobby 3}{Description}
+
+\section{Extra 1}
+\cvlistitem{Item 1}
+\cvlistitem{Item 2}
+\cvlistitem{Item 3. This item is particularly long and therefore normally spans over several lines. Did you notice the indentation when the line wraps?}
+
+\section{Extra 2}
+\cvlistdoubleitem{Item 1}{Item 4}
+\cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
+\cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
 
 \section{References}
-\cvitem{}{\begin{tabular}{p{7cm} l p{7cm} l}
-Professor MC Smith & Timothy Oakes \\
-Project supervisor \& lecturer & Previous employer, Cellnovo Ltd. \\
-mcs@eng.cam.ac.uk & \$\$\$CONTACT DETAILS FOR TIM\$\$\$ \\
-\end{tabular}}
+\begin{cvcolumns}
+  \cvcolumn{Category 1}{\begin{itemize}\item Person 1\item Person 2\item Person 3\end{itemize}}
+  \cvcolumn{Category 2}{Amongst others:\begin{itemize}\item Person 1, and\item Person 2\end{itemize}(more upon request)}
+  \cvcolumn[0.5]{All the rest \& some more}{\textit{That} person, and \textbf{those} also (all available upon request).}
+\end{cvcolumns}
 
 % Publications from a BibTeX file without multibib
 %  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART

@@ -1,4 +1,3 @@
-%&pdflatex
 %% start of file `template.tex'.
 %% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
 %
@@ -7,4 +6,4 @@
 % available at http://www.latex-project.org/lppl/.
 
 
-\documentclass[12pt,a4p
+\documentclass[11pt,a4paper,sans]{
