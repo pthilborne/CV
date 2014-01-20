@@ -5,3 +5,4 @@ moderncv/picture.*
 moderncv/README
 moderncv/tweaklist.sty
 moderncv/examples/
+moderncv/*.log
